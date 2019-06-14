@@ -28,10 +28,9 @@ fi
 antibody bundle < $DOTFILES/zsh_plugins.txt > $DOTFILES/zsh_plugins.sh
 source $DOTFILES/zsh_plugins.sh
 
-# Theme
-export MNML_INSERT_CHAR="$"
-export MNML_PROMPT=(mnml_git mnml_keymap)
-export MNML_RPROMPT=('mnml_cwd 20')
+# chruby - switch rubies based on .ruby-version file in directory
+source /usr/local/share/chruby/chruby.sh
+source /usr/local/share/chruby/auto.sh
 
 # Dotfiles
 source $DOTFILES/path.zsh
