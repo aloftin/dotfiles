@@ -10,9 +10,13 @@ fi
 # Update Homebrew recipes
 brew update
 
+############################################################
+## Uncomment after fixing Brewfile and .macos settings
+############################################################
+
 # Install all our dependencies with bundle (See Brewfile)
-brew tap homebrew/bundle
-brew bundle
+# brew tap homebrew/bundle
+# brew bundle
 
 # Make ZSH the default shell environment
 chsh -s $(which zsh)
@@ -27,6 +31,10 @@ ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 # Symlink the Mackup config file to the home directory
 ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
 
+############################################################
+## Uncomment after fixing Brewfile and .macos settings
+############################################################
+
 # Set macOS preferences
 # We will run this last because this will reload the shell
-source .macos
+# source .macos
