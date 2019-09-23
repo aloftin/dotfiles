@@ -10,15 +10,13 @@ fi
 # Update Homebrew recipes
 brew update
 
-############################################################
-## Uncomment after fixing Brewfile and .macos settings
-############################################################
-
 # Install all our dependencies with bundle (See Brewfile)
-# brew tap homebrew/bundle
-# brew bundle
+brew tap homebrew/bundle
+brew bundle
 
 # Make ZSH the default shell environment
+# May need to open /etc/shells to edit it
+sudo echo "$(which zsh)" >> /etc/shells
 chsh -s $(which zsh)
 
 # Install global NPM packages
@@ -32,7 +30,7 @@ ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
 
 ############################################################
-## Uncomment after fixing Brewfile and .macos settings
+## Uncomment after fixing .macos settings
 ############################################################
 
 # Set macOS preferences

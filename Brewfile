@@ -1,6 +1,5 @@
 # Taps
 tap 'caskroom/cask'
-tap 'caskroom/eid'
 tap 'caskroom/fonts'
 tap 'caskroom/versions'
 tap 'homebrew/bundle'
@@ -24,50 +23,46 @@ brew 'zsh'
 brew 'zsh-completions'
 
 # Development
-brew 'php'
-brew 'imagick'
-brew 'mysql'
+# brew 'imagick'
+# brew 'mysql'
 brew 'nginx'
-brew 'node'
+brew 'nvm'
 brew 'redis'
 
 # Apps
 cask 'aerial'
 cask 'alfred'
 cask 'caffeine'
-cask 'discord'
+# cask 'discord'
 cask 'docker'
 cask 'dropbox'
-cask 'eid-be'
-cask 'eid-be-viewer'
 cask 'firefox'
-cask 'github'
 cask 'google-backup-and-sync'
 cask 'google-chrome'
-cask 'gpg-suite'
+# cask 'gpg-suite'
 cask 'hyper'
 cask 'insomnia'
 cask 'java'
 cask 'mysqlworkbench'
-cask 'phpstorm'
-cask 'sequel-pro'
-cask 'skype'
+# cask 'sequel-pro'
+# cask 'skype'
 cask 'slack'
-cask 'sublime-text'
-cask 'tableplus'
-cask 'there'
-cask 'tor-browser'
-cask 'transmit'
-cask 'vagrant'
-cask 'virtualbox'
-cask 'virtualbox-extension-pack'
+cask 'spectacle'
+# cask 'tableplus'
+# cask 'there'
+# cask 'tor-browser'
+# cask 'transmit'
+# cask 'vagrant'
+# cask 'virtualbox'
+# cask 'virtualbox-extension-pack'
+cask 'visual-studio-code'
 
 # Quicklook
-cask 'qlcolorcode'
-cask 'qlmarkdown'
-cask 'quicklook-json'
-cask 'quicklook-csv'
-cask 'qlstephen'
+# cask 'qlcolorcode'
+# cask 'qlmarkdown'
+# cask 'quicklook-json'
+# cask 'quicklook-csv'
+# cask 'qlstephen'
 
 # Fonts
 cask 'font-lato'
@@ -79,14 +74,12 @@ cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 
 # Mac App Store
-mas '1Password', id: 1333542190
-mas 'Byword', id: 420212497
+# mas '1Password', id: 1333542190
 mas 'Giphy Capture', id: 668208984
-mas 'Keynote', id: 409183694
-mas 'Sip', id: 507257563
-mas 'Spark', id: 1176895641
-mas 'The Unarchiver', id: 425424353
-mas 'Things', id: 904280696
-mas 'Tweetbot', id: 1384080005
+# mas 'Sip', id: 507257563
+# mas 'Spark', id: 1176895641
+# mas 'The Unarchiver', id: 425424353
+# mas 'Things', id: 904280696
+# mas 'Tweetbot', id: 1384080005
+# mas 'Todoist', id: 585829637
 mas 'Unsplash', id: 1284863847
-mas 'WhatsApp', id: 1147396723 
