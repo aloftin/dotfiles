@@ -10,6 +10,7 @@ brew 'bash' # Latest Bash version
 brew 'bat' # "cat" on steroids
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'getantibody/tap/antibody' # ZSH Plugin Manager
+brew 'fzf' # fuzzy finder for command line
 brew 'git'
 brew 'gnupg2'
 brew 'grep'
@@ -43,11 +44,14 @@ cask 'google-chrome'
 cask 'hyper'
 cask 'insomnia'
 cask 'java'
+cask 'macdown'
 cask 'mysqlworkbench'
+cask 'notion'
 # cask 'sequel-pro'
 # cask 'skype'
 cask 'slack'
 cask 'spectacle'
+cask 'spotify'
 # cask 'tableplus'
 # cask 'there'
 # cask 'tor-browser'
