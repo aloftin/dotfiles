@@ -29,8 +29,8 @@ antibody bundle < $DOTFILES/zsh_plugins.txt > $DOTFILES/zsh_plugins.sh
 source $DOTFILES/zsh_plugins.sh
 
 # chruby - switch rubies based on .ruby-version file in directory
-source /usr/local/share/chruby/chruby.sh
-source /usr/local/share/chruby/auto.sh
+# source /usr/local/share/chruby/chruby.sh
+# source /usr/local/share/chruby/auto.sh
 
 # Dotfiles
 source $DOTFILES/path.zsh
