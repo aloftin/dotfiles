@@ -13,6 +13,7 @@ brew 'getantibody/tap/antibody' # ZSH Plugin Manager
 brew 'fzf' # fuzzy finder for command line
 brew 'git'
 brew 'gnupg2'
+brew 'go'
 brew 'grep'
 brew 'mackup'
 brew 'mas' # Mac App Store manager
