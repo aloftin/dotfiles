@@ -4,6 +4,9 @@ export PATH="$HOME/.composer/vendor/bin:$PATH"
 # Load Node global installed binaries
 # export PATH="$HOME/.node/bin:$PATH"
 
+# Load GOPATH
+export GOPATH=$HOME/go
+
 export NVM_DIR="$HOME/.nvm"
   [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
   [ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
