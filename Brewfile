@@ -80,11 +80,11 @@ cask 'font-source-serif-pro'
 
 # Mac App Store
 # mas '1Password', id: 1333542190
-mas 'Giphy Capture', id: 668208984
+# mas 'Giphy Capture', id: 668208984
 # mas 'Sip', id: 507257563
 # mas 'Spark', id: 1176895641
 # mas 'The Unarchiver', id: 425424353
 # mas 'Things', id: 904280696
 # mas 'Tweetbot', id: 1384080005
 # mas 'Todoist', id: 585829637
-mas 'Unsplash', id: 1284863847
+# mas 'Unsplash', id: 1284863847
