@@ -5,7 +5,8 @@ export PATH="$HOME/.composer/vendor/bin:$PATH"
 # export PATH="$HOME/.node/bin:$PATH"
 
 # Load GOPATH
-export GOPATH=$HOME/go
+export GOPATH="$HOME/go"
+PATH="$GOPATH/bin:$PATH"
 
 export NVM_DIR="$HOME/.nvm"
   [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
