@@ -11,7 +11,14 @@ alias zbundle="antibody bundle < $DOTFILES/zsh_plugins.txt > $DOTFILES/zsh_plugi
 # Directories
 alias dotfiles="cd $DOTFILES"
 alias library="cd $HOME/Library"
-alias daxko="cd $HOME/projects/daxko"
+alias rx="cd $HOME/projects/rxbenefits"
+
+# Command line navigation
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias ....="cd ../../../.."
+alias .....="cd ../../../../.."
 
 # JS
 alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
