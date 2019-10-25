@@ -8,3 +8,5 @@ source /Users/aloftin/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.c
 fpath+=( /Users/aloftin/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-denysdovhan-SLASH-spaceship-prompt )
 source /Users/aloftin/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-subnixr-SLASH-minimal/minimal.zsh
 fpath+=( /Users/aloftin/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-subnixr-SLASH-minimal )
+source /Users/aloftin/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-robbyrussell-SLASH-oh-my-zsh/plugins/fzf/fzf.plugin.zsh
+fpath+=( /Users/aloftin/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-robbyrussell-SLASH-oh-my-zsh/plugins/fzf )

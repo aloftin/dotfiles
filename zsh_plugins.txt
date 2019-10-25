@@ -5,3 +5,5 @@ zsh-users/zsh-history-substring-search
 denysdovhan/spaceship-prompt
 
 subnixr/minimal
+
+robbyrussell/oh-my-zsh path:plugins/fzf
