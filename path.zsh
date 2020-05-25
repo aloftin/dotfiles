@@ -18,6 +18,9 @@ PATH="$PATH:$HOME/.config/yarn/global/node_modules/.bin"
 # Use project specific binaries before global ones
 export PATH="node_modules/.bin:vendor/bin:$PATH"
 
+# Postgres app 
+export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"
+
 # Make sure coreutils are loaded before system commands
 # I've disabled this for now because I only use "ls" which is
 # referenced in my aliases.zsh file directly.
