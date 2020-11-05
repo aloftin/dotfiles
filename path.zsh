@@ -8,6 +8,10 @@ export PATH="$HOME/.composer/vendor/bin:$PATH"
 export GOPATH="$HOME/go"
 PATH="$GOPATH/bin:$PATH"
 
+# Config for private Go modules at RxB
+export DOCKER_NETRC="$(cat ~/.netrc)"
+export GOPRIVATE="github.com/RxBenefits"
+
 export NVM_DIR="$HOME/.nvm"
   [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
   [ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
