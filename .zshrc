@@ -11,6 +11,12 @@ export DOTFILES="$HOME/.dotfiles"
 antibody bundle < $DOTFILES/zsh_plugins.txt > $DOTFILES/zsh_plugins.sh
 source $DOTFILES/zsh_plugins.sh
 
+# Go
+# Give color to test results:
+go_test() {
+  go test $* | sed ''/PASS/s//$(printf "\033[32mPASS\033[0m")/'' | sed ''/SKIP/s//$(printf "\033[34mSKIP\033[0m")/'' | sed ''/FAIL/s//$(printf "\033[31mFAIL\033[0m")/'' | sed ''/FAIL/s//$(printf "\033[31mFAIL\033[0m")/'' | GREP_COLOR="01;33" egrep --color=always '\s*[a-zA-Z0-9\-_.]+[:][0-9]+[:]|^'
+}
+
 # chruby - switch rubies based on .ruby-version file in directory
 # source /usr/local/share/chruby/chruby.sh
 # source /usr/local/share/chruby/auto.sh
