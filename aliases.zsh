@@ -53,5 +53,8 @@ alias gl="git log --oneline --decorate --color"
 alias gnuke="git clean -df && git reset --hard"
 alias gpo="git push origin"
 
-#Swagger - Go
+# Go
+alias gocov="go test ./... --coverpkg ./... --coverprofile=cover_all.out;grep -v mocks cover_all.out > cover.out;go tool cover -html=cover.out;rm cover*.out"
+alias gocovt="go_test ./... --coverpkg ./... --coverprofile=cover_all.out;grep -v mocks cover_all.out > cover.out;go tool cover -func=cover.out;rm cover*.out"
+
 alias swagger='docker run --rm -it -e GOPATH=$HOME/go:/go -v $HOME:$HOME -w $(pwd) quay.io/goswagger/swagger'
