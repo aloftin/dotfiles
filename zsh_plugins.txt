@@ -4,3 +4,4 @@ zsh-users/zsh-history-substring-search
 romkatv/powerlevel10k
 robbyrussell/oh-my-zsh path:plugins/fzf
 robbyrussell/oh-my-zsh path:plugins/dotenv
+zsh-users/zsh-autosuggestions

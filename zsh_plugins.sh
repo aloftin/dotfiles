@@ -11,3 +11,5 @@ source /Users/aloftin/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.c
 fpath+=( /Users/aloftin/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-robbyrussell-SLASH-oh-my-zsh/plugins/fzf )
 source /Users/aloftin/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-robbyrussell-SLASH-oh-my-zsh/plugins/dotenv/dotenv.plugin.zsh
 fpath+=( /Users/aloftin/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-robbyrussell-SLASH-oh-my-zsh/plugins/dotenv )
+source /Users/aloftin/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-zsh-users-SLASH-zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
+fpath+=( /Users/aloftin/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-zsh-users-SLASH-zsh-autosuggestions )
