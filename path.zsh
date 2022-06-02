@@ -12,6 +12,9 @@ PATH="$GOPATH/bin:$PATH"
 export DOCKER_NETRC="$(cat ~/.netrc)"
 export GOPRIVATE="github.com/RxBenefits"
 
+# Config for private NPM packages
+export NPM_TOKEN="66e9d67132941e80b86593cad8205e20bd4ff6a1"
+
 export NVM_DIR="$HOME/.nvm"
   [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
   [ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion

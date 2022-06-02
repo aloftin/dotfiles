@@ -11,7 +11,6 @@ alias zbundle="antibody bundle < $DOTFILES/zsh_plugins.txt > $DOTFILES/zsh_plugi
 # Directories
 alias dotfiles="cd $DOTFILES"
 alias library="cd $HOME/Library"
-alias rx="cd $HOME/projects/rxbenefits"
 
 # Command line navigation
 alias ..="cd .."
@@ -23,16 +22,9 @@ alias .....="cd ../../../../.."
 # JS
 alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
 
-# Vagrant
-alias v="vagrant global-status"
-alias vup="vagrant up"
-alias vhalt="vagrant halt"
-alias vssh="vagrant ssh"
-alias vreload="vagrant reload"
-alias vrebuild="vagrant destroy --force && vagrant up"
-
 # Docker
 alias docker-composer="docker-compose"
+#alias dlogin="docker login -u AWS -p $(aws ecr get-login-password --region us-east-1) 266895286924.dkr.ecr.us-east-1.amazonaws.com"
 #alias dstop="docker stop $(docker ps -a -q)"
 #alias dpurgecontainers="dstop && docker rm $(docker ps -a -q)"
 #alias dpurgeimages="docker rmi $(docker images -q)"
@@ -57,4 +49,13 @@ alias gpo="git push origin"
 alias gocov="go test ./... --coverpkg ./... --coverprofile=cover_all.out;grep -v mocks cover_all.out > cover.out;go tool cover -html=cover.out;rm cover*.out"
 alias gocovt="go_test ./... --coverpkg ./... --coverprofile=cover_all.out;grep -v mocks cover_all.out > cover.out;go tool cover -func=cover.out;rm cover*.out"
 
+##############
+# RxBenefits
+##############
+
+alias rxb="cd $HOME/projects/rxbenefits"
+#alias ecrlogin="docker login -u AWS -p $(aws ecr get-login-password --region us-east-1) 266895286924.dkr.ecr.us-east-1.amazonaws.com"
+
+
+# Swagger - Go
 alias swagger='docker run --rm -it -e GOPATH=$HOME/go:/go -v $HOME:$HOME -w $(pwd) quay.io/goswagger/swagger'
