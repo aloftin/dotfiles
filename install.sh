@@ -14,13 +14,22 @@ brew update
 brew tap homebrew/bundle
 brew bundle
 
-# Make ZSH the default shell environment
-# May need to open /etc/shells to edit it
-sudo echo "$(which zsh)" >> /etc/shells
-chsh -s $(which zsh)
+# Source nvm so it's accessible in this script
+. ~/.nvm/nvm.sh
+
+# Install latest version of node
+nvm install --lts
+
+# Use latest version of node
+nvm use --lts
 
 # Install global NPM packages
-npm install --global yarn
+npm install --location=global yarn
+
+# Make ZSH the default shell environment
+# May need to open /etc/shells to edit it
+# sudo echo "$(which zsh)" >> /etc/shells
+# chsh -s $(which zsh)
 
 # Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
 rm -rf $HOME/.zshrc
@@ -36,3 +45,8 @@ ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
 # Set macOS preferences
 # We will run this last because this will reload the shell
 # source .macos
+
+############################################################
+## Uncomment after fixing .macos settings
+############################################################
+
