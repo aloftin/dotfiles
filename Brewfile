@@ -1,15 +1,16 @@
 # Taps
-tap 'caskroom/cask'
-tap 'caskroom/fonts'
-tap 'caskroom/versions'
+tap 'homebrew/cask'
+tap 'homebrew/cask-fonts'
+tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 
 # Binaries
+brew 'antibody'
 brew 'awscli'
 brew 'bash' # Latest Bash version
+cask 'bartender'
 brew 'bat' # "cat" on steroids
 brew 'coreutils' # Those that come with macOS are outdated
-brew 'getantibody/tap/antibody' # ZSH Plugin Manager
 brew 'fzf' # fuzzy finder for command line
 brew 'git'
 brew 'gnupg2'
@@ -28,48 +29,48 @@ brew 'zsh-completions'
 # brew 'imagick'
 # brew 'mysql'
 brew 'nginx'
-brew 'nvm'
 brew 'redis'
 
 # Apps
 cask 'aerial'
+cask 'amethyst'
+cask 'bettertouchtool'
 cask 'alfred'
 cask 'caffeine'
-# cask 'discord'
+cask 'cleanshot'
+cask 'discord'
 cask 'docker'
 cask 'dropbox'
+cask 'fantastical'
 cask 'firefox'
-cask 'google-backup-and-sync'
 cask 'google-chrome'
-# cask 'gpg-suite'
-cask 'hyper'
-cask 'insomnia'
-cask 'java'
-cask 'macdown'
-cask 'mysqlworkbench'
+cask 'karabiner-elements'
+# cask 'macdown'
+# cask 'mysqlworkbench'
 cask 'notion'
-# cask 'sequel-pro'
-# cask 'skype'
 cask 'slack'
-cask 'spectacle'
+# cask 'spectacle'
 cask 'spotify'
 # cask 'tableplus'
 # cask 'there'
-# cask 'tor-browser'
-# cask 'transmit'
+# # cask 'tor-browser'
+# cask 'transmit' # file transfer and management tool
 # cask 'vagrant'
 # cask 'virtualbox'
 # cask 'virtualbox-extension-pack'
 cask 'visual-studio-code'
 
 # Quicklook
-# cask 'qlcolorcode'
-# cask 'qlmarkdown'
-# cask 'quicklook-json'
-# cask 'quicklook-csv'
-# cask 'qlstephen'
+cask 'qlcolorcode'
+cask 'qlmarkdown'
+cask 'quicklook-json'
+cask 'quicklook-csv'
+cask 'qlstephen'
 
 # Fonts
+brew 'svn' # needed for font installation
+cask 'font-hack-nerd-font'
+cask 'font-meslo-lg-nerd-font'
 cask 'font-lato'
 cask 'font-open-sans'
 cask 'font-roboto'
@@ -86,5 +87,4 @@ cask 'font-source-serif-pro'
 # mas 'The Unarchiver', id: 425424353
 # mas 'Things', id: 904280696
 # mas 'Tweetbot', id: 1384080005
-# mas 'Todoist', id: 585829637
 # mas 'Unsplash', id: 1284863847
