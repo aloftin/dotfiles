@@ -8,10 +8,6 @@ export PATH="$HOME/.node/bin:$PATH"
 export GOPATH="$HOME/go"
 PATH="$GOPATH/bin:$PATH"
 
-# Config for private Go modules at RxB
-export DOCKER_NETRC="$(cat ~/.netrc)"
-export GOPRIVATE="github.com/RxBenefits"
-
 export NVM_DIR="$HOME/.nvm"
   [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
   [ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
@@ -25,8 +21,13 @@ export PATH="node_modules/.bin:vendor/bin:$PATH"
 # Postgres app 
 export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"
 
-#Docker NETRC
-export DOCKER_NETRC="$(cat ~/.netrc)"
+# Add back if you have a need for private Go modules
+# Config for private Go modules
+# export DOCKER_NETRC="$(cat ~/.netrc)"
+# export GOPRIVATE="github.com/xxxxx"
+
+# #Docker NETRC
+# export DOCKER_NETRC="$(cat ~/.netrc)"
 
 # Make sure coreutils are loaded before system commands
 # I've disabled this for now because I only use "ls" which is
