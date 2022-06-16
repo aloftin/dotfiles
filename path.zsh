@@ -21,6 +21,9 @@ export PATH="node_modules/.bin:vendor/bin:$PATH"
 # Postgres app 
 export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"
 
+# Set default Postgres database
+export PGDATABASE=postgres
+
 # Add back if you have a need for private Go modules
 # Config for private Go modules
 # export DOCKER_NETRC="$(cat ~/.netrc)"
