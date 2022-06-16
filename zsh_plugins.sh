@@ -1,5 +1,3 @@
-source /Users/aloftin/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-lukechilds-SLASH-zsh-nvm/zsh-nvm.plugin.zsh
-fpath+=( /Users/aloftin/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-lukechilds-SLASH-zsh-nvm )
 source /Users/aloftin/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-zsh-users-SLASH-zsh-completions/zsh-completions.plugin.zsh
 fpath+=( /Users/aloftin/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-zsh-users-SLASH-zsh-completions )
 source /Users/aloftin/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-zsh-users-SLASH-zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh

@@ -11,6 +11,9 @@ export DOTFILES="$HOME/.dotfiles"
 antibody bundle < $DOTFILES/zsh_plugins.txt > $DOTFILES/zsh_plugins.sh
 source $DOTFILES/zsh_plugins.sh
 
+# Initialize nodenv
+eval "$(nodenv init -)"
+
 # Go
 # Give color to test results:
 go_test() {

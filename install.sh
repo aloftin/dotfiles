@@ -14,14 +14,8 @@ brew update
 brew tap homebrew/bundle
 brew bundle
 
-# Source nvm so it's accessible in this script
-. ~/.nvm/nvm.sh
-
-# Install latest version of node
-nvm install --lts
-
-# Use latest version of node
-nvm use --lts
+# Install node
+nodenv install
 
 # Install global NPM packages
 npm install --location=global yarn
