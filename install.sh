@@ -18,7 +18,7 @@ brew bundle
 nodenv install
 
 # Install global NPM packages
-npm install --location=global yarn
+npm install -g yarn
 
 # Make ZSH the default shell environment
 # May need to open /etc/shells to edit it
