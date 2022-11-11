@@ -14,6 +14,9 @@ then
   compinit
 fi
 
+# Keep dotenv plugin from prompting when loading .env files
+export ZSH_DOTENV_PROMPT=false
+
 export DOTFILES="$HOME/.dotfiles"
 
 # Antibody
