@@ -21,6 +21,9 @@ export PATH="node_modules/.bin:vendor/bin:$PATH"
 # Postgres app 
 export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"
 
+# Add libpq to path for Rails use of Postgres
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
+
 # Set default Postgres database
 export PGDATABASE=postgres
 
