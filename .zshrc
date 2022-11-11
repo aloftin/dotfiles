@@ -17,6 +17,9 @@ fi
 # Keep dotenv plugin from prompting when loading .env files
 export ZSH_DOTENV_PROMPT=false
 
+# Needed for Puma server to run properly on newer MacOS
+export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
+
 export DOTFILES="$HOME/.dotfiles"
 
 # Antibody
