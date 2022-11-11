@@ -29,6 +29,9 @@ source $DOTFILES/zsh_plugins.sh
 # Initialize nodenv
 eval "$(nodenv init -)"
 
+# Initialize rbenv
+eval "$(rbenv init - zsh)"
+
 # Go
 # Give color to test results:
 go_test() {
