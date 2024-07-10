@@ -6,7 +6,7 @@ alias ll="/opt/homebrew/opt/coreutils/libexec/gnubin/ls -ahlF --color --group-di
 weather() { curl -4 wttr.in/${1:-antwerp} }
 alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
 alias c="clear"
-alias zbundle="antibody bundle < $DOTFILES/zsh_plugins.txt > $DOTFILES/zsh_plugins.sh"
+alias zbundle="antidote bundle < $DOTFILES/zsh_plugins.txt > $DOTFILES/zsh_plugins.sh"
 
 # Directories
 alias dotfiles="cd $DOTFILES"

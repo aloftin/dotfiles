@@ -22,15 +22,11 @@ export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
 
 export DOTFILES="$HOME/.dotfiles"
 
-# Antibody
-antibody bundle < $DOTFILES/zsh_plugins.txt > $DOTFILES/zsh_plugins.sh
-source $DOTFILES/zsh_plugins.sh
+# source antidote
+source /opt/homebrew/opt/antidote/share/antidote/antidote.zsh
 
-# Initialize nodenv
-eval "$(nodenv init -)"
-
-# Initialize rbenv
-eval "$(rbenv init - zsh)"
+# initialize plugins statically with ${ZDOTDIR:-~}/.zsh_plugins.txt
+antidote load $DOTFILES/zsh_plugins.txt > $DOTFILES/zsh_plugins.sh
 
 # Go
 # Give color to test results:
@@ -48,3 +44,11 @@ source $DOTFILES/aliases.zsh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.dotfiles/.p10k.zsh ]] || source ~/.dotfiles/.p10k.zsh
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# Initialize nodenv
+eval "$(nodenv init - zsh)"
+
+# Initialize rbenv
+eval "$(rbenv init - zsh)"
