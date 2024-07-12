@@ -68,11 +68,11 @@ cask 'spotify'
 cask 'visual-studio-code'
 
 # Quicklook
-cask 'qlcolorcode'
-cask 'qlmarkdown'
-cask 'quicklook-json'
-cask 'quicklook-csv'
-cask 'qlstephen'
+# cask 'qlcolorcode' # shows syntax highlighting for code in preview
+cask 'qlmarkdown' # preview Markdown files
+cask 'quicklook-json' # preview JSON files
+cask 'quicklook-csv' # preview CSV files
+# cask 'qlstephen' # preview files without extension
 
 # Fonts
 brew 'svn' # needed for font installation
