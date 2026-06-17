@@ -52,3 +52,6 @@ eval "$(nodenv init - zsh)"
 
 # Initialize rbenv
 eval "$(rbenv init - zsh)"
+
+# Initialize fuzzy finder
+source <(fzf --zsh)
