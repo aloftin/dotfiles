@@ -67,13 +67,6 @@ cask 'spotify'
 # cask 'virtualbox-extension-pack'
 cask 'visual-studio-code'
 
-# Quicklook
-# cask 'qlcolorcode' # shows syntax highlighting for code in preview
-cask 'qlmarkdown' # preview Markdown files
-cask 'quicklook-json' # preview JSON files
-cask 'quicklook-csv' # preview CSV files
-# cask 'qlstephen' # preview files without extension
-
 # Fonts
 brew 'svn' # needed for font installation
 cask 'font-hack-nerd-font'
