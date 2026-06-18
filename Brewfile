@@ -9,11 +9,9 @@ brew 'bash' # Latest Bash version
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'fzf' # fuzzy finder for command line
 brew 'git'
-brew 'go'
 brew 'grep'
 # brew 'mackup'
 brew 'mas' # Mac App Store manager
-brew 'nodenv'
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 # brew 'trash' # Manage the Trash bin
 brew 'zsh'
@@ -21,6 +19,8 @@ brew 'zsh-completions'
 
 # Development
 # brew 'imagemagick'
+brew 'go'
+brew 'nodenv'
 brew 'rbenv'
 brew 'ruby-build'
 brew 'redis'
