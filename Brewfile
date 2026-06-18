@@ -19,13 +19,20 @@ brew 'zsh-completions'
 
 # Development
 # brew 'imagemagick'
-brew 'go'
 brew 'nodenv'
 brew 'rbenv'
 brew 'ruby-build'
-brew 'redis'
+# brew 'redis' # Installed via DBngin
+brew 'memcached'
+brew 'libpq' # Postgres client libraries
+brew 'libyaml' # Required by some Ruby gems
+brew 'watchman' # File watcher for development tools
+cask 'dbngin' # Postgres server management tool
+brew 'go'
 
 # Apps
+# cask '1password' # TODO: uncomment after setting up this machine (already installed)
+brew '1password-cli'
 cask 'claude'
 cask 'claude-code'
 cask 'cleanshot'
