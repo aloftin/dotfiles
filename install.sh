@@ -45,7 +45,7 @@ nodenv global $(nodenv install -l | grep -v - | tail -1)
 # npm install -g yarn
 
 # Clone Github repositories
-# ./clone.sh
+./clone.sh
 
 # Symlink the Mackup config file to the home directory
 # ln -s ./.mackup.cfg $HOME/.mackup.cfg # TODO: add back in once we have mackup configured
