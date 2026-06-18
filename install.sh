@@ -44,7 +44,7 @@ nodenv install
 # ./clone.sh
 
 # Symlink the Mackup config file to the home directory
-ln -s ./.mackup.cfg $HOME/.mackup.cfg
+# ln -s ./.mackup.cfg $HOME/.mackup.cfg # TODO: add back in once we have mackup configured
 
 # Set macOS preferences - we will run this last because this will reload the shell
 source ./.macos
