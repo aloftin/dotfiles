@@ -35,7 +35,11 @@ brew tap homebrew/bundle
 brew bundle --file ./Brewfile
 
 # Install node
-nodenv install
+nodenv init
+# Installs latest stable version of node
+nodenv install $(nodenv install -l | grep -v - | tail -1) 
+# Sets the global version of node to the one we just installed
+nodenv global $(nodenv install -l | grep -v - | tail -1) 
 
 # Install global NPM packages
 # npm install -g yarn
