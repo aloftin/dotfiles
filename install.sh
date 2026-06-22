@@ -47,6 +47,9 @@ nodenv global $(nodenv install -l | grep -v - | tail -1)
 # Clone Github repositories
 ./clone.sh
 
+# Add back if gitsubmodules don't work out
+# git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
 # Symlink the Mackup config file to the home directory
 # ln -s ./.mackup.cfg $HOME/.mackup.cfg # TODO: add back in once we have mackup configured
 
