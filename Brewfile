@@ -50,6 +50,7 @@ cask 'iterm2'
 # cask 'notion'
 cask 'obsidian'
 cask 'raycast'
+cask 'rectangle' # window management tool
 # cask 'screen-studio'
 # cask 'slack'
 cask 'spotify'
